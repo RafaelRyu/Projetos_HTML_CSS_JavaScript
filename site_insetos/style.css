@@ -1,0 +1,125 @@
+:root {
+    --color0: rgb(23, 248, 23);
+    --color1: rgb(2, 61, 2);
+    --color2: rgb(6, 172, 89);
+    --color3: rgb(103, 212, 0);
+    --color4: rgb(89, 196, 223);
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+background-color: var(--color4);
+}
+
+header {
+    background-image: linear-gradient(var(--color0), var(--color1));
+}
+
+nav {
+    padding: 10px;
+}
+
+header > nav > a {
+    color: #63ff63;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+header > nav > a:hover {
+background-color: var(--color3);
+}
+
+main {
+background-color: rgb(130, 204, 130);
+padding: 50px;
+}
+
+main > h2 {
+    margin-top: 20px;
+}
+
+article {
+    background-color: rgb(3, 141, 77);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid ;
+}
+
+section {
+background-color: var(--color2);
+}
+
+section > div {
+    width: 100%;
+    height: 500px;
+}
+
+section > div > img {
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 5px 5px 3px rgb(0, 12, 2);
+}
+
+section  > div > h2 {
+    margin-top: 30px;
+    background-color: aliceblue;
+    width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 4px 12px 3px   rgb(0, 12, 2);
+}
+
+
+ section > div > iframe {
+    display: block;
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 3px  rgb(0, 12, 2);
+
+ }
+
+div#video {
+    border: 5px solid rgb(171, 255, 111);
+    height: 700px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+  div > h2#textovideo {
+    width: 90%;
+ }
+
+ aside {
+    padding-left: 10px;
+ }
+
+aside > ul {
+ list-style-type: '\1F517';
+ list-style-position: inside;
+}
+
+.externo::after {
+content: '\1F517';
+}
+
+footer {
+    padding: 10px;
+    margin-bottom: 20px ;
+}
