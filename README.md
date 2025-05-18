@@ -1,1 +1,1 @@
-Este projeto está sendo criado enquanto estou na Fatec
+Repositório para códigos em HTML&CSS
