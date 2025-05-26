@@ -1,0 +1,25 @@
+ body {
+    background-color: rgb(136, 173, 194) ;
+    text-align: center;
+ }
+ 
+ input {
+        display: inline;
+        width: 50px;
+    }
+    p {
+        display: inline;
+        
+    }
+
+    div {
+        padding: 10px;
+        margin-top: 10px;
+        background-color: gray;
+        width: 120px;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-right: auto;
+        margin-left: auto;
+    }
