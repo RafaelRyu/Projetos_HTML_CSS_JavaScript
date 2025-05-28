@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: rgb(68, 92, 138);
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    width: 50%;
+    height: 300px;
+}
+
+section {
+    position: relative;
+}
+
+section > label {
+    position: absolute;
+    left: 0px;
+    width: 60px;
+    
+}
+
+section > input {
+    
+    width: 40%;
+}
+
+section > input#iniciar {
+margin-top: 10px;
+}
+
+
+p#res {
+    padding: 10px;
+    background-color: aliceblue;
+
+}
