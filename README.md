@@ -1,1 +1,2 @@
-Repositório para códigos em HTML&CSS
+Repositório para códigos em HTML&CSS e JavaScript
+
