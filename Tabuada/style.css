@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(154, 190, 118);
+}
+
+header {
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 20px ;
+}
+
+section {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    height: 500px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+}
+
+section > select {
+    display: block;
+    position: absolute;
+    left: 40%
+}
