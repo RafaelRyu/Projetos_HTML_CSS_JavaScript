@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(207, 158, 97);
+}
+
+main {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 0px 0px 5px 5px;
+}
+
+header {
+    background-color: chocolate;
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px 5px 0px 0px ;
+}
+
+header > h1 {
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div#receberDados > p {
+    display: inline;
+}
+div#receberDados > input {
+    width: 40%;
+    display: inline;
+}
+
+div#opcoes {
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+div#opcoes > input {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    width: 40%;
+}
+
+section {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    
+border: 1px solid black;
+background-color: aliceblue;
+width: 50%;
+}
+
+section > p {
+    border: 1px solid black;
+padding: 10px;
+
+
+}
