@@ -72,3 +72,23 @@ div.times > a {
     display: none;
 }
 
+div {
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+div.noticia {
+    width: 30%;
+height: auto;
+}
+
+
+.reduzir {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.noticia:hover .reduzir  {
+    white-space: normal;
+}
