@@ -29,7 +29,7 @@ li {
 }
 
 li a, .liga {
-    display: inline-block;
+display: inline-block;
 color: white;
 padding: 3px;
 text-decoration: none;
@@ -61,26 +61,46 @@ li.liga {
 }
 
 div.times {
-    position: absolute;
-    
-    
+    background-color: black;
+opacity: 0.85;
+
 }
 
 div.times > a {
     display: block;
     text-align: left;
     display: none;
+    
 }
 
 div {
     margin: 10px;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+width: 100vw;
+text-align: center;
+background-color: rgb(66, 66, 66);
+}
+
+main > h1 {
+    background-color: rgb(105, 105, 105);
 }
 
 div.noticia {
+    display: inline-block;
     width: 30%;
 height: auto;
+padding: 10px;
+margin: 0px;
 }
+
+div.noticia > img {
+    height: 180px;
+    width: 100%;
+}
+
 
 
 .reduzir {
