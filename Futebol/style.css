@@ -19,48 +19,69 @@ body {
     background-color: rgb(98, 139, 252);
 }
 
-ul {
-    background-color: black;
-    list-style-type: none;
-    padding: 20px;
-    height: 150px;
-    margin: 0px;
-    overflow:hidden;
-}
-
-li {
-    float: left;
-    overflow: auto;
-}
-
-li a, .liga {
-display: inline-block;
-color: white;
-padding: 3px;
-text-decoration: none;
-text-align: center;
-background-color: black;
-opacity: 0.85;
-
+nav {
+    text-align: center;
 }
 
 
-div.times {
-    background-color: black;
-opacity: 0.85;
 
-}
 
-div.times > a {
-    display: block;
-    text-align: left;
+
+div#timesCelularBra > a, div#timesCelularEng > a, div#timesCelularEsp > a, div#timesCelularGer > a, div#timesCelularIta > a {
     display: none;
-    
 }
+
+div:hover > a {
+    display: flex;
+    background-color: black;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+ div#timesCelularBra:hover > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+div#timesCelularEng:hover > a {
+   display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+div#timesCelularEsp:hover > a {
+   display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+div#timesCelularGer:hover > a {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+div#timesCelularIta:hover > a {
+   display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+} 
 
 div {
     margin: 10px;
     background-color: rgb(255, 255, 255);
+}
+
+div:hover {
+    background-color: red;
 }
 
 main {
@@ -107,6 +128,10 @@ div.noticia:hover .reduzir  {
 * {
     font-family: Arial, Helvetica, sans-serif;
     
+}
+
+nav#celular {
+    display: none;
 }
 
 header {
