@@ -24,19 +24,16 @@ nav {
 }
 
 
-
-
-
 div#timesCelularBra > a, div#timesCelularEng > a, div#timesCelularEsp > a, div#timesCelularGer > a, div#timesCelularIta > a {
     display: none;
 }
 
 div:hover > a {
     display: flex;
-    background-color: black;
+    background-color: white;
     padding: 5px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
  div#timesCelularBra:hover > a {
@@ -80,11 +77,15 @@ div {
     background-color: rgb(255, 255, 255);
 }
 
-div:hover {
-    background-color: red;
+nav > div:hover {
+    background-color: black;
+    color: aliceblue;
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 width: 100vw;
 text-align: center;
 background-color: rgb(66, 66, 66);
@@ -95,11 +96,12 @@ main > h1 {
 }
 
 div.noticia {
-    display: inline-block;
-    width: 30%;
+width: 70%;
 height: auto;
 padding: 10px;
-margin: 0px;
+margin: 5px;
+border: 1px solid black;
+
 }
 
 div.noticia > img {
