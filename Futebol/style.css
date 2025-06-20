@@ -1,3 +1,4 @@
+/* Estilização para Telas Pequenas */
 @media screen and (max-width: 716px) {
 ul {
     display: none;
@@ -88,18 +89,22 @@ nav > div:hover {
 
 main {
     display: flex;
-    margin-top:20px ;
+    
     flex-direction: column;
     align-items: center;
 text-align: center;
 background-color: rgb(66, 66, 66);
 }
 
-main > h1 {
+h1#news {
+    margin-top: 20px;
     background-color: rgb(105, 105, 105);
+    text-align: center;
+    
 }
 
 div.noticia {
+    max-width: 300px;
 width: 70%;
 height: auto;
 padding: 10px;
@@ -128,7 +133,7 @@ div.noticia:hover .reduzir  {
 }
 
 
-/* Estilização para computador */
+/* Estilização para Telas Médias */
 @media screen and (max-width: 1024px) and (min-width: 716px) {
 
 * {
@@ -223,13 +228,16 @@ div {
 
 main {
 width: 100vw;
-margin-top: 20px;
+
 text-align: center;
 background-color: rgb(66, 66, 66);
 }
 
-main > h1 {
+h1#news {
+    margin-top: 20px;
     background-color: rgb(105, 105, 105);
+    text-align: center;
+    
 }
 
 div.noticia {
@@ -238,6 +246,143 @@ div.noticia {
 height: auto;
 padding: 10px;
 margin: 0px;
+}
+
+div.noticia > img {
+    height: 180px;
+    width: 100%;
+}
+
+.reduzir {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.noticia:hover .reduzir  {
+    white-space: normal;
+}
+
+}
+
+/* Estilização para Telas Grandes */
+@media screen and (min-width: 1024px) { 
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+nav#celular {
+    display: none;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+}
+
+header h1 {
+    color: white;
+}
+
+body {
+    display: flex;
+    background-color: rgb(98, 139, 252);
+    flex-direction: column;
+}
+
+ul {
+    
+    background-color: black;
+    list-style-type: none;
+    padding: 20px;
+    height: 150px;
+    margin: 0px;
+    overflow:hidden;
+     background-size:cover ;
+    background-image: url(images/images\ \(3\).jpeg);
+    
+}
+
+li {
+    float: left;
+    overflow: auto;
+}
+
+li a, .liga {
+display: inline-block;
+color: white;
+padding: 3px;
+text-decoration: none;
+text-align: center;
+background-color: black;
+opacity: 0.85;
+
+}
+
+
+li a:hover, .liga:hover > #btnBra, .liga:hover #btnEng, .liga:hover #btnEsp, .liga:hover #btnGer, .liga:hover #btnIta {
+    background-color: rgb(248, 18, 18);
+    
+}
+
+
+li:hover > div.times > a {
+    display: block;
+}
+
+li.liga {
+    display: inline-block;
+}
+
+div.times {
+    background-color: black;
+opacity: 0.85;
+
+}
+
+div.times > a {
+    display: block;
+    text-align: left;
+    display: none;
+    
+}
+
+div {
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+width: 100vw;
+
+text-align: center;
+background-color: rgb(66, 66, 66);
+}
+
+ h1#news {
+    margin-top: 20px;
+    background-color: rgb(105, 105, 105);
+    text-align: center;
+    
+}
+
+div.noticia {
+   max-width: 300px;
+   padding: 10px;
+    width: 30%;
+height: auto;
+
+
 }
 
 div.noticia > img {
