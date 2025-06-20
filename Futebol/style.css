@@ -133,6 +133,8 @@ div.noticia:hover .reduzir  {
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
     
 }
 
@@ -142,22 +144,32 @@ nav#celular {
 
 header {
     text-align: center;
-    background-color: antiquewhite;
-border-radius: 20px;
-box-shadow: 5px 5px 4px black;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+}
+
+header h1 {
+    color: white;
 }
 
 body {
+    display: flex;
     background-color: rgb(98, 139, 252);
+    flex-direction: column;
 }
 
 ul {
+    
     background-color: black;
     list-style-type: none;
     padding: 20px;
     height: 150px;
     margin: 0px;
     overflow:hidden;
+     background-size:cover ;
+    background-image: url(images/images\ \(3\).jpeg);
+    
 }
 
 li {
@@ -180,12 +192,6 @@ opacity: 0.85;
 li a:hover, .liga:hover > #btnBra, .liga:hover #btnEng, .liga:hover #btnEsp, .liga:hover #btnGer, .liga:hover #btnIta {
     background-color: rgb(248, 18, 18);
     
-}
-
-ul {
-    background-size:cover ;
-    background-image: url(images/images\ \(3\).jpeg);
-    box-shadow: 5px 5px 3px black;
 }
 
 
@@ -217,6 +223,7 @@ div {
 
 main {
 width: 100vw;
+margin-top: 20px;
 text-align: center;
 background-color: rgb(66, 66, 66);
 }
@@ -237,8 +244,6 @@ div.noticia > img {
     height: 180px;
     width: 100%;
 }
-
-
 
 .reduzir {
     white-space: nowrap;
