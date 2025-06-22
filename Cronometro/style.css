@@ -1,4 +1,11 @@
+@media screen and (max-width: 425px) {
+
 body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     background-color: #24292f;
 
 }
@@ -9,9 +16,99 @@ header > h1 {
     background-color: #ebc556;
 }
 
+main {
+    width: 90%;
+}
 
 main p#contagem {
     margin: auto;
+    width: 170px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid #ebc556;
+    background-color: white;
+}
+
+main p#aviso {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    background-color: aliceblue;
+    text-align: center;
+    color: red;
+    width: 50%;
+    border-radius: 10px;
+}
+
+
+main > input {
+   
+    
+    left: 20%;
+ height: 50px;
+ width: 100%; 
+}
+
+main > input#inicio:hover {
+background-color: chartreuse;
+transition: 0.4s;
+}
+main > input#fim:hover {
+    background-color: rgb(219, 49, 49);
+    transition: 0.4s;
+}
+main > input#volta:hover {
+    background-color: rgb(241, 163, 44);
+    transition: 0.4s;
+}
+main > input#zerar:hover {
+background-color: rgb(18, 160, 196);
+    transition: 0.4s;
+}
+
+section {
+
+    margin: auto;
+    margin-top:10px ;
+    width: 50%;
+    background-color: #f7f9f8;
+    border: 2px solid black;
+}
+
+section > p#voltas {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+}
+
+@media screen and (min-width: 425px) {
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #24292f;
+
+}
+
+header > h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #ebc556;
+}
+
+main {
+    width: 90%;
+}
+
+main p#contagem {
+    margin: auto;
+    min-width: 170px;
     width: 30%;
     text-align: center;
     font-weight: 400;
@@ -70,4 +167,5 @@ section > p#voltas {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+}
 }
