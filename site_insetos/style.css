@@ -1,3 +1,5 @@
+@media screen and (min-width: 425px) {
+
 :root {
     --color0: rgb(23, 248, 23);
     --color1: rgb(2, 61, 2);
@@ -13,11 +15,18 @@
 }
 
 body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
 background-color: var(--color4);
 }
 
 header {
     background-image: linear-gradient(var(--color0), var(--color1));
+  
 }
 
 nav {
@@ -35,6 +44,7 @@ background-color: var(--color3);
 }
 
 main {
+    
 background-color: rgb(130, 204, 130);
 padding: 50px;
 }
@@ -52,19 +62,31 @@ article {
 }
 
 section {
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+
 background-color: var(--color2);
 }
 
-section > div {
-    width: 100%;
+section > div.insetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 60%;
     height: 500px;
 }
 
+
+
 section > div > img {
-    width: 500px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 425px;
+    height: 375px;
+   
     display: block;
     box-shadow: 5px 5px 3px rgb(0, 12, 2);
 }
@@ -72,39 +94,17 @@ section > div > img {
 section  > div > h2 {
     margin-top: 30px;
     background-color: aliceblue;
-    width: 500px;
+    width: 425px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+   
     margin-top: 20px;
-    display: block;
+ 
     border-radius: 5px 5px 0px 0px;
     box-shadow: 4px 12px 3px   rgb(0, 12, 2);
 }
 
 
- section > div > iframe {
-    display: block;
-    width: 90%;
-    height: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 5px 5px 3px  rgb(0, 12, 2);
-
- }
-
-div#video {
-    border: 5px solid rgb(171, 255, 111);
-    height: 700px;
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-  div > h2#textovideo {
-    width: 90%;
- }
+ 
 
  aside {
     padding-left: 10px;
@@ -122,4 +122,6 @@ content: '\1F517';
 footer {
     padding: 10px;
     margin-bottom: 20px ;
+}
+
 }
