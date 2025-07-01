@@ -45,12 +45,22 @@ background-color: var(--color3);
 
 main {
     
-background-color: rgb(130, 204, 130);
+    background-image: url('https://a-z-animals.com/media/2020/01/Butterfly-green.jpg');
+    background-size: cover;
+    
+
 padding: 50px;
 }
 
 main > h2 {
+    padding: 5px;
     margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.562);
+}
+
+main > p {
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.562);
 }
 
 article {
